@@ -1,44 +1,19 @@
-/* Navigation Styles */
-nav {
-    background-color: #444;
-    padding: 0.5rem;
-    text-align: center;
-}
 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: #4CAF50;
-    border-radius: 3px;
-}
-
-/* Task List Styles */
-#tasks {
+/* Next Steps Section */
+#next {
     margin-top: 2rem;
     padding: 1rem;
-    background-color: #f0f8ff;
+    background-color: #fff8e1;
     border-radius: 5px;
+    border-left: 4px solid #ff9800;
 }
 
-#tasks ul {
-    list-style-type: square;
+#next ol {
     padding-left: 1.5rem;
 }
 
-#tasks li {
+#next li {
     margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
 }
-
-/* Team Update */
-footer {
-    font-size: 0.9rem;
-    color: #ddd;
-}
-
 
